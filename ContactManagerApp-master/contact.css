@@ -1,0 +1,18 @@
+.asterisk{
+  display: none;
+  font-size: 1.25em;
+  color: red;
+}
+#btnAdd {
+  margin-left: 60px;
+}
+.search-nav{
+  margin-top: 15px;
+  margin-right: 10px;
+  float:right
+}
+#searchByName{
+  font-size: 12px;
+  padding: 3px 10px;
+  width: 150px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Manager</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/sandstone/bootstrap.min.css" rel="stylesheet" integrity="sha384-G3G7OsJCbOk1USkOY4RfeX1z27YaWrZ1YuaQ5tbuawed9IoreRDpWpTkZLXQfPm3" crossorigin="anonymous">
+    <link rel="stylesheet" href="contact.css">
+  </head>
+  <body>
+    <div class="container">
+    <nav class="navbar navbar-default">
+      <ul class="nav navbar-nav">
+        <li><a href="home.html" class="activePage">Home</a></li>
+        <li  class="active"><a href="addContact.html" class="activePage" >Add Contact</a></li>
+        <li><a href="editContact.html" class="activePage">Edit Contact</a></li>
+        <li><a href="deleteContact.html" class="activePage">Delete Contact</a></li>
+      </ul>
+    </nav>
+    <h2>Add Contact</h2>
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label for="fname" class="col-xs-2 control-label">Firstname:</label>
+        <div class="col-xs-8">
+          <input type="text" id="fname" class="form-control">
+        </div>
+        <div class="col-xs-2">
+          <span class="asterisk" id="invalidFname">*</span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="lname" class="col-xs-2 control-label">Lastname:</label>
+        <div class="col-xs-8">
+          <input type="text" id="lname" class="form-control">
+        </div>
+        <div class="col-xs-2">
+          <span class="asterisk" id="invalidLname">*</span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="phone" class="col-xs-2 control-label">Phone:</label>
+        <div class="col-xs-8">
+          <input type="text" id="phone" class="form-control">
+        </div>
+        <!-- <div class="col-xs-2"> -->
+          <!-- <span class="asterisk" id="invalidPhone">*</span> -->
+        <!-- </div> -->
+      </div>
+      <div class="form-group">
+        <label for="email" class="col-xs-2 control-label">Email:</label>
+        <div class="col-xs-8">
+          <input type="text" id="email" class="form-control">
+        </div>
+        <div class="col-xs-2">
+          <span class="asterisk" id="invalidEmail">*</span>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-xs-8"></div>
+        <div class="col-xs-4">
+          <button type="button" id="btnAdd" class="btn btn-primary">Add Contact</button>
+        </div>
+      </div>
+    </form>
+    </div>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="contact.js" charset="utf-8"></script>
+  </body>
+</html>
